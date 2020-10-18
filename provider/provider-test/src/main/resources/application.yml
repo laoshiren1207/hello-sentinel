@@ -1,0 +1,16 @@
+spring:
+  application:
+    # 服务名
+    name: provider-test
+  cloud:
+    nacos:
+      discovery:
+        # 服务注册中心
+        server-addr: 120.79.0.210:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8255
+
+server:
+  # 服务端口
+  port: 8282
